@@ -54,13 +54,13 @@ ScrollReveal().reveal(".about__content .about__btn", {
 });
 
 // service container
-ScrollReveal().reveal(".service__card", {
+ScrollReveal().reveal(".skill__card", {
   ...scrollRevealOption,
   interval: 500,
 });
 
 // portfolio container
-ScrollReveal().reveal(".portfolio__card", {
+ScrollReveal().reveal(".tech-skill__card", {
   duration: 1000,
   interval: 500,
 });
