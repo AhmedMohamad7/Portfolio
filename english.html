@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/9a74fc78ef.js" crossorigin="anonymous"></script>
+    <title>Web Development | Ahmed</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__bar">
+        <a href="#"><span class="logo nav__logo">A</span> Ahmed</a>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-3-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#tech-skills">Tech Skills</a></li>
+        <li><a href="./index.html" class="btn">Deutsch</a></li>
+        <li><a href="#contact" class="btn">contact</a></li>
+      </ul>
+      <a href="#contact" class="btn btn__large">contact</a>
+    </nav>
+    <header class="section__container header__container" id="home">
+      <div class="header__image">
+        <img src="assets/header.jpg" alt="header" />
+      </div>
+      <div class="header__content">
+        <div>
+          <h1>Ahmed<br /><br>Fullstack<br />Web<br> Developer</h1>
+        </div>
+        <p class="section__description">
+            Hello! I'm Ahmed, a passionate junior full stack developer with a love for developing web applications.<br>
+            I learned my programming skills in an online boot camp that will end with a campus phase.<br>
+            I am currently expanding my backend skills and continually learning new technologies.
+        </p>
+        <div class="header__btn">
+          <a href="#contact" class="btn">Contact me</a>
+        </div>
+      </div>
+    </header>
+    <main>
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img src="assets/bg.png" alt="bg" class="about__bg-1" />
+        <img src="assets/bg.png" alt="bg" class="about__bg-2" />
+        <img src="assets/about.jpg" alt="about" class="about__img" />
+      </div>
+      <div class="about__content">
+        <h2 class="section__header">About me</h2>
+        <p class="section__description">
+            I am a dedicated junior full stack developer with a strong passion for developing modern and responsive web applications.<br>
+            In my journey so far I have learned HTML 5, CSS 3 (also Tailwind), JavaScript and React and am now able to create responsive and interactive websites.<br>
+            Currently, I'm focusing on deepening my backend knowledge with Express.js and MongoDB and continually familiarizing myself with the latest technologies.
+        </p>
+      </div>
+    </section>
+
+    <section class="section__container skills__container" id="skills">
+      <h2 class="section__header">Skills</h2>
+      <div class="skills__grid">
+        <div class="skill__card">
+          <span><i class="fa-solid fa-broom"></i></span>
+          <h4>Clean Code</h4>
+        </div>
+        <div class="skill__card">
+          <span><i class="fa-solid fa-people-arrows"></i></span>
+          <h4>Communication</h4>
+        </div>
+        <div class="skill__card">
+          <span><i class="fa-solid fa-business-time"></i></span>
+          <h4>Time Managing</h4>
+        </div>
+        <div class="skill__card">
+          <span><i class="fa-solid fa-check-double"></i></span>
+          <h4>Problem Solving</h4>
+        </div>
+        <div class="skill__card">
+          <span><i class="fa-solid fa-people-group"></i></span>
+          <h4>Team Spirit</h4>
+        </div>
+        <div class="skill__card">
+          <span><i class="fa-solid fa-lightbulb"></i></span>
+          <h4>Creativity</h4>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container tech-skills__container" id="tech-skills">
+      <h2 class="section__header">My Tech Skills</h2>
+      <div class="tech-skills__grid">
+        <div class="tech-skill__card">
+          <img src="assets/HTML-5.jpg" alt="HTML5" />
+        </div>
+        <div class="tech-skill__card">
+          <img src="assets/CSS3.jpg" alt="css3" />
+        </div>
+        <div class="tech-skill__card">
+          <img src="assets/JS.jpg" alt="JavaScript" />
+        </div>
+        <div class="tech-skill__card">
+          <img src="assets/react.jpg" alt="react" />
+        </div>
+        <div class="tech-skill__card">
+          <img src="assets/Postgresql.jpg" alt="Postgresql" />
+        </div>
+        <div class="tech-skill__card">
+          <img src="assets/nodejs.jpg" alt="nodejs" />
+        </div>
+        <div class="tech-skill__card">
+          <img src="assets/expressjs.jpg" alt="expressjs" />
+        </div>
+        <div class="tech-skill__card">
+          <img src="assets/MongoDB.jpg" alt="MongoDB" />
+        </div>
+        <div class="tech-skill__card">
+          <img src="assets/git&github.jpg" alt="git & github" />
+        </div>
+      </div>
+    </section>
+    </main>
+    <Footer class="section__container contact__container" id="contact">
+      <h2>Contact</h2>
+      <div class="contact__socials">
+        <a href="https://www.linkedin.com/in/ahmed-mohamad-779999319/"><i class="ri-linkedin-fill fa-xl"></i></a>
+        <a href="https://github.com/AhmedMohamad7"><i class="fa-brands fa-github fa-xl"></i></a>
+        <a href="mailto:ahmed.mohamad.ku7@gmail.com"><i class="fa-solid fa-envelope fa-xl"></i></a>
+      </div>
+    </Footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
